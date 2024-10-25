@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <script defer src="/js/script.js"></script>
+    </head>
+    <body>
+        <div class="div-mae">
+
+            <h1> Escolha a cor do seu quadrado! </h1>
+
+            <div class="red">
+                <p>(R) - Vermelho</p>
+                <input oninput="mudaCor()" id="rangeRed" type="range" min="0" max="255" value="128">
+                <input oninput="mudaCor()" id="numRed" type="text" min="0" max="255" readonly>
+            </div>
+            
+            <div class="green">
+                <p>(G) - Verde</p>
+                <input oninput="mudaCor()" id="rangeGreen" type="range" min="0" max="255" value="128">
+                <input oninput="mudaCor()" id="numGreen" type="text" min="0" max="255" readonly>
+            </div>
+
+            <div class="blue">
+                <p>(B) - Azul</p>
+                <input oninput="mudaCor()" id="rangeBlue" type="range" min="0" max="255" value="128">
+                <input oninput="mudaCor()" id="numBlue" type="text" min="0" max="255" readonly>
+            </div>
+            <br>
+            <div class="quadradinho">
+            </div>
+
+        </div>
+        
+    </body>
+</html>
